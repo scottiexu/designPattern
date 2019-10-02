@@ -5,11 +5,11 @@ public class NonleafNode implements Node {
 
 
     private String name;
-    private List<Node> childrens;
+    private List<Node> children;
 
 
     public NonleafNode(String name) {
-        this.childrens = new ArrayList<Node>();
+        this.children = new ArrayList<Node>();
         this.name = name;
     }
 
@@ -21,19 +21,19 @@ public class NonleafNode implements Node {
 
     @Override
     public void addChildren(Node node) {
-        childrens.add(node);
+        children.add(node);
     }
 
     @Override
     public void removeChildren(Node node) {
-        childrens.remove(node);
+        children.remove(node);
     }
 
     @Override
     public void print(String indentation) {
         System.out.println(indentation + name);
         indentation = indentation + "----";
-        for (Node node : childrens) {
+        for (Node node : children) {
             node.print(indentation);
         }
     }
