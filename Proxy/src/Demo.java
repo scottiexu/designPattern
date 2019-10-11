@@ -1,4 +1,6 @@
-public class Demo {
+/**
+ * 代理模式案例：远程代理
+ */public class Demo {
     public static void main(String[] args) {
         Image image = new ImageFromDisk();
         image.load();

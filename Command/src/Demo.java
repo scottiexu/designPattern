@@ -1,3 +1,6 @@
+/**
+ * 命令模式案例：遥控器
+ */
 public class Demo {
     public static void main(String[] args) {
         TV tv = new TV();

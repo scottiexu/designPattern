@@ -1,3 +1,6 @@
+/**
+ * 装饰模式案例：圣诞树
+ */
 public class Demo {
     public static void main(String[] args) {
         Tree pinetree = new PineTree();

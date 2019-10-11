@@ -1,3 +1,6 @@
+/**
+ * 策略模式案例：鸭子飞行行为
+ */
 public class Demo {
 
     public static void main(String[] args) {

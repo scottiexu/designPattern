@@ -1,3 +1,6 @@
+/**
+ * 适配器模式案例：读卡器
+ */
 public class Demo {
     public static void main(String[] args) {
         Computer com = new Computer();

@@ -1,6 +1,8 @@
 import milkTea.*;
 
-
+/**
+ * 模版模式案例：制作奶茶
+ */
 public class Demo {
     public static void main(String[] args) {
         奶茶制作模版 奶茶 = new 珍珠奶茶();

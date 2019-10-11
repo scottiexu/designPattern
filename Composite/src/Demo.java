@@ -1,3 +1,6 @@
+/**
+ * 组合模式案例：树结构
+ */
 public class Demo {
 
     public static void main(String[] args) {
